@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Notificações compulsórias - CIEVS DSEI Potiguara</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+      background-color: #f4f4f4;
+    }
+    iframe {
+      border: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>EpiSUS Fundamental - Produto 2</h1>
+  <iframe 
+    title="Painel de monitoramento das notificações compulsórias" 
+    width="600" 
+    height="373.5" 
+    src="https://app.powerbi.com/reportEmbed?reportId=f9330d23-045a-4280-ac05-1e535370f207&autoAuth=true&ctid=f310b526-e195-4805-a55e-67e28f2fefdb" 
+    frameborder="0" 
+    allowFullScreen="true">
+  </iframe>
+</body>
+</html>
