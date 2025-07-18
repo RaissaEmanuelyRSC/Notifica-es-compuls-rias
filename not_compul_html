@@ -1,30 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Notificações compulsórias - CIEVS DSEI Potiguara</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notificações Compulsórias - DSEI Potiguara</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6f9;
+      color: #333;
+    }
+    header {
+      background-color: #00695c;
+      padding: 1.5rem;
       text-align: center;
-      padding: 40px;
-      background-color: #f4f4f4;
+      color: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    section.info {
+      max-width: 1000px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    section.info h2 {
+      color: #00695c;
+      margin-top: 0;
     }
     iframe {
+      display: block;
+      margin: 2rem auto;
       border: none;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 95%;
+      height: 600px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <h1>EpiSUS Fundamental - Produto 2</h1>
-  <iframe 
-    title="Painel de monitoramento das notificações compulsórias" 
-    width="600" 
-    height="373.5" 
-    src="https://app.powerbi.com/reportEmbed?reportId=f9330d23-045a-4280-ac05-1e535370f207&autoAuth=true&ctid=f310b526-e195-4805-a55e-67e28f2fefdb" 
-    frameborder="0" 
-    allowFullScreen="true">
-  </iframe>
+
+  <header>
+    <h1>Notificações Compulsórias</h1>
+    <p>DSEI Potiguara – Unidade CIEVS</p>
+  </header>
+
+  <section class="info">
+    <h2>Sobre o Painel</h2>
+    <p>
+      Este painel interativo foi desenvolvido para acompanhar, em tempo real, as notificações compulsórias imediatas e semanais no território de abrangência do DSEI Potiguara. A visualização dos dados visa apoiar a tomada de decisão e o fortalecimento das ações de vigilância em saúde indígena.
+    </p>
+
+    <h2>Visualização Interativa</h2>
+    <p>
+      Utilize os filtros e gráficos disponíveis para explorar os dados por município, polo base, tipo de agravo e faixa etária, entre outros recortes.
+    </p>
+    
+    <!-- Substitua abaixo pela URL de incorporação do seu relatório Power BI -->
+    <iframe title="Painel Notificações DSEI Potiguara"
+      src="https://app.powerbi.com/reportEmbed?reportId=f9330d23-045a-4280-ac05-1e535370f207&autoAuth=true&ctid=f310b526-e195-4805-a55e-67e28f2fefdb"
+      allowfullscreen="true">
+    </iframe>
+  </section>
+
+  <footer>
+    Desenvolvido por Raíssa Manoel | CIEVS - DSEI Potiguara | 2025
+  </footer>
+
 </body>
 </html>
